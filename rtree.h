@@ -28,7 +28,8 @@ typedef struct bst_s {
 typedef struct {
   point_t *pts;
   bst_t *bst;
-  size_t num;
+  size_t npts;
+  size_t nbst;
 } tree_t;
 
 
